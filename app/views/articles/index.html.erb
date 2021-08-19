@@ -2,6 +2,7 @@
 <p>Time now is <%= @time %></p>
 <ul>
 	<% @articles.each do |article| %>
-	<li><%= article.title %></li>
+	<li><%= link_to article.title, article %></li>
+	</a>
 	<% end %>
 </ul>
