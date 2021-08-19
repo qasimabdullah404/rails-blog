@@ -1,0 +1,7 @@
+<h1>Hello from Rails.</h1>
+<p>Time now is <%= @time %></p>
+<ul>
+	<% @articles.each do |article| %>
+	<li><%= article.title %></li>
+	<% end %>
+</ul>
